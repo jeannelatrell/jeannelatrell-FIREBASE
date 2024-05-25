@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Authentication is Fun</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: rgb(40, 40, 40);
+        color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="authForm">
+      <h2>Sign Up or Sign In</h2>
+      <input type="email" placeholder="email" id="userEmail" />
+      <input type="password" placeholder="password" id="userPassword" />
+      <br /><br />
+      <button id="signUpButton">Sign Up</button>
+      <button id="signInButton">Sign In</button>
+    </div>
+
+    <div id="secretContent">
+      <h2>ACCESSORIES</h2>
+     
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/SUNGLASSES.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="">DOME Square-Frame Acetate Sunglasses
+
+                </h5>
+                <p class="card-text">DOME Eyewear's sunglasses have a simple square-frame shape that's classic for a reason. Made from black acetate with tonal lenses, they'll make every outfit look that much cooler.</p>
+                <a href="#" class="btn">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/BAG.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Tote Bag</h5>
+                <p class="card-text">DOME tote bag is guaranteed to become part of your everyday wardrobe. Stylish and practical, it's crafted from supple leather with a full-grain finish that helps resist scuffing. It's detailed with a small foiled logo and buckled straps that can be adjusted so you can find the right drop.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Belt.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Full-Grain Leather Belt</h5>
+                <p class="card-text">DOME knows the importance of well-crafted, timeless pieces like this 'DOME' belt. Made from black full-grain leather, it has a slim 3cm profile and fastens with a polished silver-tone buckle.
+
+                </p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Bracelet.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Textured-Leather and Silver-Tone Bracelet</h5>
+                <p class="card-text">DOME's textured-leather bracelet is accented with a silver-tone 'YSL' logo that's decorated with tiny studs. The emblem also acts as an anchor for the hook fastening, making it easy to get on and off.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/handkerchief.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Polka-Dot Silk Pocket Square</h5>
+                <p class="card-text">DOME's pocket square is patterned with a tonal polka-dot motif that'll liven up solid suiting. It's been made in Italy from lustrous silk.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Ring.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Burnished Rhodium-Plated Onyx Signet Ring</h5>
+                <p class="card-text">DOME channels traditional signet styles with this timeless ring. It's cast from burnished rhodium-plated silver and set with a faceted black onyx stone.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Cap.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Cotton-Canvas Baseball Cap</h5>
+                <p class="card-text">DOME's cap is made from hardwearing cotton-canvas and has an adjustable tab at the back to find your perfect fit.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Scarf.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Silk Scarf</h5>
+                <p class="card-text">This scarf is made from fluid silk with tactile fringed ends and finished with a plaque.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Suitcase.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Formula 1005 Scritto Venezia Leather Suitcase</h5>
+                <p class="card-text">DOME's 'Scritto' motif was originally hand-calligraphed on its leather goods. This 'Formula 1005' suitcase has been made in Italy from signature Venezia leather and embossed with the iconic lettering. Equipped with an internal zipped compartment and pocket on the front, it's the ideal size for carry-on luggage.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/tie.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME 5cm Polka-Dot Wool and Silk-Blend Jacquard Tie</h5>
+                <p class="card-text">DOME's slim tie is jacquard-woven with a faint polka-dot pattern that's nearly indetectable from afar. It's crafted from a wool and silk-blend and will complement any blazer.</p>
+                <a href="#" class="btn btn">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Wallet.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME Meisterstück Full-Grain Leather Billfold Wallet with Money Clip</h5>
+                <p class="card-text">DOME's well-made accessories are backed with 80 years of expertise. This 'Meisterstück' wallet has been made in Germany from full-grain leather and fitted with a silver-tone money clip and six card slots to keep you organised.</p>
+                <a href="#" class="btn">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Duffel.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DOME's Padded Paper Nylon Messenger Bag</h5>
+                <p class="card-text">Simple yet effective, this minimalist messenger bag is made from a single piece of the brand's 'Paper Nylon' that's padded to maintain its shape. It's fully lined and has a handy internal zipped pocket.</p>
+                <a href="#" class="btn button">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="signOutButton">Sign Out</button>
+    </div>
+
+    <script type="module">
+      //Update the below URL with the appropriate version if necessary.
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      import {
+        getAuth,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword,
+        onAuthStateChanged,
+        signOut,
+        //Update the below URL with the appropriate version if necessary.
+      } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+
+      // INSERT YOUR FIREBASE CONFIG OBJECT HERE
+      const firebaseConfig = {
+  apiKey: "AIzaSyCL8wJZ36sl-Qrvh_gGZQTZBNAC1qLzqZY",
+  authDomain: "dome-5fe58.firebaseapp.com",
+  projectId: "dome-5fe58",
+  storageBucket: "dome-5fe58.appspot.com",
+  messagingSenderId: "166128436979",
+  appId: "1:166128436979:web:d248b673ef7f302376d986"
+};
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+
+      const userEmail = document.querySelector("#userEmail");
+      const userPassword = document.querySelector("#userPassword");
+      const authForm = document.querySelector("#authForm");
+      const secretContent = document.querySelector("#secretContent");
+      const signUpButton = document.querySelector("#signUpButton");
+      const signInButton = document.querySelector("#signInButton");
+      const signOutButton = document.querySelector("#signOutButton");
+
+      secretContent.style.display = "none";
+
+      const userSignUp = async () => {
+        const signUpEmail = userEmail.value;
+        const signUpPassword = userPassword.value;
+        createUserWithEmailAndPassword(auth, signUpEmail, signUpPassword)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            console.log(user);
+            Swal.fire("Your Account is succesfully created!");
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode + errorMessage);
+          });
+      };
+
+      const userSignIn = async () => {
+        const signInEmail = userEmail.value;
+        const signInPassword = userPassword.value;
+        signInWithEmailAndPassword(auth, signInEmail, signInPassword)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            Swal.fire("You have signed in successfully!");
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode + errorMessage);
+          });
+      };
+
+      const checkAuthState = async () => {
+        onAuthStateChanged(auth, (user) => {
+          if (user) {
+            authForm.style.display = "none";
+            secretContent.style.display = "block";
+          } else {
+            authForm.style.display = "block";
+            secretContent.style.display = "none";
+          }
+        });
+      };
+
+      const userSignOut = async () => {
+        await signOut(auth);
+        Swal.fire("User Logout");
+      };
+
+      checkAuthState();
+
+      signUpButton.addEventListener("click", userSignUp);
+      signInButton.addEventListener("click", userSignIn);
+      signOutButton.addEventListener("click", userSignOut);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
